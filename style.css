@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--Light-pink);
+    font-size: 16px;
+}
+
+.center_vertical_and_horizontal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .img {
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    height: 15rem;
+}
+
+.card_accordion {
+    background-color: var(--White);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+}
+
+.card_accordion .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card_accordion .title h1 {
+    font-size: 2.3rem;
+    color: var(--Dark-purple);
+    font-weight: 700;
+}
+
+.card_accordion .title img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.card_accordion .accordion_item_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.card_accordion .accordion_item_title img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.card_accordion .accordion_item_title h5 {
+    color: var(--Dark-purple);
+    font-weight: 600;
+}
+
+.card_accordion .accordion_item .accordion_description{
+    font-size: .7rem;
+    color: var(--Grayish-purple);
+}
+.card_accordion .accordion_item hr {
+    margin-top: 1.5rem;
+    height: .1px;
+    background-color:var(--Grayish-purple);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+/* // for mobile */
+@media screen and (max-width: 375px) {
+
+    .container .img {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    }
+
+}
