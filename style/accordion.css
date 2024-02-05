@@ -1,0 +1,77 @@
+.card_accordion {
+    background-color: var(--White);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+}
+
+.card_accordion .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card_accordion .title h1 {
+    font-size: 2.3rem;
+    color: var(--Dark-purple);
+    font-weight: 700;
+}
+
+.card_accordion .title img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.accordion_item {
+    border-bottom: 1px solid var(--Grayish-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.accordion_item:last-child {
+    border-bottom: none;
+}
+
+.accordion_item .accordion_description {
+    display: none;
+}
+
+.accordion_item .accordion_item_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion_item .accordion_item_title:hover > h5 {
+    color: var(--Grayish-purple);
+}
+
+.accordion_item .accordion_item_title img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.accordion_item .accordion_item_title h5 {
+    color: var(--Dark-purple);
+    font-weight: 600;
+}
+
+.accordion_item .accordion_item .accordion_description{
+    font-size: .7rem;
+    color: var(--Grayish-purple);
+}
+
+
+/* // for mobile */
+@media screen and (max-width: 375px) {
+
+    .card_accordion {
+        width: 20rem;
+    }
+
+}
