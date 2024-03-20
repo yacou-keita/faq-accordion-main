@@ -18,11 +18,11 @@ function AddEvenListener(index) {
     accordionSelected.addEventListener('click', () => {
         if (isSelectedAccordion(index)) {
             setDisplayProperty({ element: index, property: "none" })
-            changeImage("../assets/images/icon-plus.svg", index)
+            changeImage("assets/images/icon-plus.svg", index)
             return
         }
         setDisplayProperty({ element: index, property: "flex" })
-        changeImage("../assets/images/icon-minus.svg", index)
+        changeImage("assets/images/icon-minus.svg", index)
     })
 }
 
