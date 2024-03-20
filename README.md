@@ -4,9 +4,10 @@ C'est une solution au [Défi FAQ accordion sur Frontend Mentor](https://www.fron
 
 ## Sommaires
 
-- [Le défi](#Le-défi)
-- [Liens](#Liens)
-- [Construit avec](#Construit-avec)
+- [Défi](#défi)
+- [Contrainte](#Contrainte)
+- [Résultat](#Résultat)
+- [Technologies](#Technologies)
 - [Profile](#Profile)
 
 
@@ -19,15 +20,15 @@ Les utilisateurs devraient pouvoir:
 - Afficher la disposition optimale de l'interface en fonction de la taille de l'écran de leur appareil
 - Voir les états de survol et de focus pour tous les éléments interactifs de la page
 
-### Liens
-
 ### Contrainte
 
 Je me suis imposé comme défi personnel de réaliser ce projet sans recourir à l'utilisation de frameworks ou de bibliothèques externes.
 
-- Solution : [Visiter](https://your-solution-url.com)
+### Résultat
 
-### Construit avec
+- Solution : [Visiter](https://yacou-keita.github.io/faq-accordion-main/)
+
+### Technologies
 
 - HTML5 
 - CSS 3
@@ -36,6 +37,6 @@ Je me suis imposé comme défi personnel de réaliser ce projet sans recourir à
 
 ## Profile
 
-- Frontend Mentor - [Visiter](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Visiter](https://www.frontendmentor.io/profile/yacou-keita)
 - Linkedin - [Visiter](https://www.linkedin.com/in/yacou-keita-b075a1137/)
 
