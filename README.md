@@ -22,7 +22,7 @@ Les utilisateurs devraient pouvoir:
 
 ### Contrainte
 
-Je me suis imposé comme défi personnel de réaliser ce projet sans recourir à l'utilisation de frameworks ou de bibliothèques externes.
+réaliser ce projet sans recourir à l'utilisation de frameworks ni de bibliothèques externes.
 
 ### Résultat
 
